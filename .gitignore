@@ -19,9 +19,6 @@ ENV/
 .env
 .env.*
 
-# Graficos gerados pela execucao do programa
-graphics/*.png
-
 # Arquivos do sistema operacional
 .DS_Store
 Thumbs.db
