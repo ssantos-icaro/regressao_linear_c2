@@ -1,0 +1,27 @@
+# Arquivos bytecode / caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Caches de ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Arquivos de configuracao local
+.env
+.env.*
+
+# Graficos gerados pela execucao do programa
+graphics/*.png
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
