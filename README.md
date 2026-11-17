@@ -24,13 +24,23 @@ $$
 \sum x_i z_i & \sum y_i z_i & \sum z_i^2 & \sum z_i \\
 \sum x_i & \sum y_i & \sum z_i & m
 \end{bmatrix}
-\begin{bmatrix} \alpha \\ \beta \\ \gamma \\ \delta \end{bmatrix} =
-\begin{bmatrix} \sum x_i w_i \\ \sum y_i w_i \\ \sum z_i w_i \\ \sum w_i \end{bmatrix}
+\begin{bmatrix}
+\alpha \\
+\beta \\
+\gamma \\
+\delta
+\end{bmatrix} =
+\begin{bmatrix}
+\sum x_i w_i \\
+\sum y_i w_i \\
+\sum z_i w_i \\
+\sum w_i
+\end{bmatrix}
 $$
 
 Em forma matricial geral, com $X \in \mathbb{R}^{m \times n}$ (uma coluna por termo do modelo, a última de 1s):
 
-$$(X^T X)\,c = X^T w$$
+$$(X^T X) c = X^T w$$
 
 ## Problemas
 
