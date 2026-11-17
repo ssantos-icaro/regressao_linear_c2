@@ -24,8 +24,7 @@ $$
 \sum x_i z_i & \sum y_i z_i & \sum z_i^2 & \sum z_i \\
 \sum x_i & \sum y_i & \sum z_i & m
 \end{bmatrix}
-\begin{bmatrix} \alpha \\ \beta \\ \gamma \\ \delta \end{bmatrix}
-=
+\begin{bmatrix} \alpha \\ \beta \\ \gamma \\ \delta \end{bmatrix} =
 \begin{bmatrix} \sum x_i w_i \\ \sum y_i w_i \\ \sum z_i w_i \\ \sum w_i \end{bmatrix}
 $$
 
@@ -70,9 +69,17 @@ Valores obtidos com `python main.py` (arredondados na 6ª casa decimal).
 
 ### Gráficos
 
-|           Problema 1            |         Problema 2          |          Problema 3          |
-| :-----------------------------: | :-------------------------: | :--------------------------: |
-| ![P1](graphics/publicidade.png) | ![P2](graphics/consumo.png) | ![P3](graphics/entregas.png) |
+**Problema 1 — Publicidade**
+
+![Problema 1: Publicidade](graphics/publicidade.png)
+
+**Problema 2 — Consumo de combustível**
+
+![Problema 2: Consumo de combustível](graphics/consumo.png)
+
+**Problema 3 — Tempo de entrega**
+
+![Problema 3: Tempo de entrega](graphics/entregas.png)
 
 ## Como executar
 
